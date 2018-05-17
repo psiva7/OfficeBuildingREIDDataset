@@ -10,14 +10,14 @@ When using this dataset please cite:
 ## Data Format
 
 OfficeBuilding.zip contains three folders:
-* GalleryOutdoor: contains the images used for the gallery. All images are from the outdoor camera.
-* ProbeIndoor: probe (query) images from the indoor camera
-* ProbeOutdoor: probe (query) images from the outdoor camera. There are no overlap between these images and images in GalleryOutdoor
+* **GalleryOutdoor**: contains the images used for the gallery. All images are from the outdoor camera.
+* **ProbeIndoor**: probe (query) images from the indoor camera
+* **ProbeOutdoor**: probe (query) images from the outdoor camera. There are no overlap between these images and images in GalleryOutdoor
 
 The filenames of the images are of the format PersonID_Time_FrameNUM.png
-* ID: unique person ID for each unique individuals in the dataset 
-* Time: time the person was captured on camera
-* NUM: frame number in the video
+* **ID**: unique person ID for each unique individuals in the dataset 
+* **Time**: time the person was captured on camera
+* **NUM**: frame number in the video
 
 Please note that for each individual tracks up to 20 frames were uniformly sampled from the track. This is the reason why Frame numbers are not in consecutive order for all individuals.
 
